@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        /* Style for the navigation bar */
+        .first{
+            /* background-color: crimson; */
+            overflow: hidden;
+            position: sticky;
+        text-decoration: none;
+        /* background-color: rgb(243, 235, 236); */
+            
+        }
+        .button-container{
+            background-color: #ff5733;
+            padding-top: 20px;
+
+        }
+        .navbar-button{
+            color: #000;
+            font-size: 1.5rem;
+            flex-direction: row;
+            text-align: center;
+            justify-content: space-around;
+        }
+        .navbar-button:hover{
+            color: crimson;
+            text-decoration: none;
+        }
+
+        /* Style for the container holding the buttons */
+        .vpn {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            background-color: crimson;
+            width: 130px;
+            margin-left: 44%;
+            color: #000;
+            border-radius: 5px;
+        }
+        .vpn:hover{
+            text-decoration: none;
+            font-size: large;
+            color: #000;
+        }
+
+        #firstSection{
+            margin: 0;
+            padding: 0;
+            background-image: url('semi-truck-transporting.png.webp'); /* Add your background image URL here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 20px;
+            background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+        }
+        
+        .logo img {
+            max-width: 100px;
+            border-radius: 20px;
+            background: rgb(95, 95, 240);
+            padding: 30px;
+
+
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-links li {
+            margin-right: 60px; /* Adjust the spacing as needed */
+        }
+        
+        .nav-links li:last-child {
+            margin-right: 0;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #333; /* Link color */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #ff5733; /* Hover color */
+        }
+        
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px;
+            text-align: center;
+            /* padding-left: 80px; */
+            background-color: transparent;
+            /* background-color: transparent; Transparent background for content */
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            /* background-color: blanchedalmond; */
+
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-weight: 800;
+        }
+        h1 span{
+            font-size:50px;
+            color: crimson;
+        }
+
+        #btn1{
+            color: white;
+            background-color: blue;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: 900px;
+
+        }
+
+        #SecondSection{
+            margin: 0;
+            padding: 0;
+            background-color: #76b6ee;
+            font-family: sans-serif;
+            background-image: url(second-section.jpg) center center cover;
+
+        }
+        /* CARD INSERTING */
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            
+        }
+        
+
+.card-body {
+    border: 2px solid crimson;
+    margin: 10px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+}
+
+        /* Style for individual cards */
+        .card {
+            border: 1px solid #d12020;
+            border-radius: 5px;
+            padding: 20px;
+            padding-top: 50px;
+            text-align: center;
+            width: auto;
+            height: auto;
+            margin: 10px;
+            background-color: #ff5733;
+        }
+
+        /* Add some space between the cards */
+        .card + .card {
+            margin-left: 20px;
+        }
+        .card img{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: #ccc;
+            padding-left: 100px;
+        }
+        .card p{
+            color: #822929;
+            font-size: larger;
+            line-height: 2;
+        }
+    h2{
+        font-size: 4rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #thrdsection{
+        width: 100vh;
+        height: 100vh;
+       
+    }
+     /* Style for the first card container */
+     .card-container1 {
+        display: flex;
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .card-container1 {
+        display: flex;
+        justify-content: space-between;
+        /* Space between cards */
+        max-width: 100%;
+        /* Optional: Set a maximum width for the container */
+        margin: 0 auto;
+        /* Center the container */
+    }
+
+    /* Style for individual cards */
+    .card1{
+        border: 1px solid crimson;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 50%; /* 40% width for the first card */
+        margin: 10px;
+    }
+
+    .card:nth-child(2) {
+        width: 50%; /* 20% width for the second card */
+        margin: 10px;
+    }
+ /* Style for the card container */
+ .vision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Space around cards */
+    max-width: 1300px;
+    margin: 0 auto;
+    background-size: cover;
+    padding: 20px;
+    background-color: #fff
+}
+
+/* Style for individual cards */
+.vision1, .vision2, .vision3, .vision4 {
+    flex: 1;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the images */
+.vision1 img, .vision2 img, .vision3 img, .vision4 img {
+    width: 80%;
+    height: 80%;
+    /* object-fit: cover; */
+}
+
+
+/* Style for card text */
+.vision1 p, .vision2 p, .vision3 p, .vision4 p {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #000;
+}
+.hvision{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    color: crimson;
+}
+.specialty {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    text-align: center;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+/* Style for individual cards */
+.card-1 {
+    flex: 0 0 calc(33.33% - 10px); /* Three cards in one line with some spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    height: 250px;
+    background-color: #66c1eb;
+}
+.card-1 h2{
+    font-size: large;
+    font-weight: 700;
+
+}
+
+.card-1 img{
+    width: 60vh;
+    height: 200px;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+.get a{
+    background-color: #ff5733;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    border: #ff5733;
+    padding: 10px;
+
+}
+.get:hover{
+    color: crimson;
+}
+.get a:hover{
+    background-color: crimson;
+}
+/* contact us section */
+#contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(Dry-Van-Trailer-2.jpg) center center cover;
+    opacity: 0.7;
+}
+
+#contact h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="number"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+#contact input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 20px; /* Add space between the form and button */
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+.button-container img{
+    width: 20px;
+    height: 20px;
+
+}
+.get img{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px; 
+}
+
