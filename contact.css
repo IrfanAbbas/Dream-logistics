@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(243, 235, 235);
+    /* background-image: url(Dry-Van-Trailer-2.jpg) center center cover; */
+}
+
+
+
+#contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(Dry-Van-Trailer-2.jpg) center center cover;
+    opacity: 0.7;
+}
+
+#contact h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="number"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+#contact input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 20px; /* Add space between the form and button */
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
