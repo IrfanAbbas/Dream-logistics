@@ -1,0 +1,38 @@
+.card-container1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.card-container1 {
+    display: flex;
+    justify-content: space-between;
+    /* Space between cards */
+    max-width: 100%;
+    /* Optional: Set a maximum width for the container */
+    margin: 0 auto;
+    /* Center the container */
+}
+
+/* Style for individual cards */
+.card1{
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 50%; /* 40% width for the first card */
+    margin: 10px;
+}
+
+.card:nth-child(2) {
+    width: 50%; /* 20% width for the second card */
+    margin: 10px;
+}
+body h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: coral;
+}
